@@ -1,0 +1,27 @@
+/* vendor */
+
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+/* app */
+@import url(../src/Components/App/App.css);
+
+/* header */
+@import url(../src/Components/Header/Header.css);
+@import url(../src/Components/Info/Info.css);
+
+/* Benefit */
+@import url(../src/Components/Benefit/Benefit.css);
+
+/* Manufacturers */
+@import url(../src/Components/Manufacturers/Manufacturers.css);
+
+/* Work */
+@import url(../src/Components/Work/Work.css);
+
+/* Reviews */
+@import url(../src/Components/Reviews/Reviews.css);
+
+/* Footer */
+@import url(../src/Components/Footer/Footer.css);
+

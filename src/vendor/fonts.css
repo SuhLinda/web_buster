@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'FuturaLightC';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/futuralightc.eot") format("eot"),
+  url("fonts/futuralightc.ttf") format("ttf"),
+  url("fonts/futuralightc.woff") format("woff"),
+  url("fonts/futuralightc.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'FuturaFuturisC';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/futurafuturisc.eot") format("eot"),
+  url("fonts/futurafuturisc.ttf") format("ttf"),
+  url("fonts/futurafuturisc.woff") format("woff"),
+  url("fonts/futurafuturisc.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'FuturaFuturisC';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/futurafuturisc-bold.eot") format("eot"),
+  url("fonts/futurafuturisc-bold.ttf") format("ttf"),
+  url("fonts/futurafuturisc-bold.woff") format("woff"),
+  url("fonts/futurafuturisc-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'FuturaBookC';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/futurabookc.eot") format("eot"),
+  url("fonts/futurabookc.ttf") format("ttf"),
+  url("fonts/futurabookc.woff") format("woff"),
+  url("fonts/futurabookc.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'FuturaDemiC';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/futurademic.eot") format("eot"),
+  url("fonts/futurademic.ttf") format("ttf"),
+  url("fonts/futurademic.woff") format("woff"),
+  url("fonts/futurademic.woff2") format("woff2");
+}

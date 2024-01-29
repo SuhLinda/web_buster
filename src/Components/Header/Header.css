@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-image: url("../../../src/images/header__background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 850px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__mask {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../../src/images/header__mask.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 850px;
+  width: 100%;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  font-family: 'FuturaLightC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 122.8%; /* 22.104px */
+  margin: 56px auto 115px;
+}
+
+.header__logo {
+  min-width: 155px;
+  max-height: 28px;
+  flex-shrink: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-grow: 1;
+  margin: 0 24px 0 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__link {
+  color: #FFF;
+  text-decoration: none;
+  margin: 3px 0;
+}
+
+.header__phone {
+  width: 33px;
+  height: 33px;
+  margin: 0 9px 0 0;
+}
+
+.header__number {
+  color: #FFF;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  line-height: 122.8%; /* 22.104px */
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header__span {
+  font-weight: 700;
+  margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__links {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .header {
+    background-image: url("../../../src/images/header__background__width1300.png");
+    height: 650px;
+  }
+
+  .header__mask {
+    background-image: url("../../../src/images/header__mask__with1300.png");
+    height: 650px;
+  }
+
+  .header__links {
+    margin: 56px auto 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header__links {
+    font-size: 14px;
+    line-height: 50%;
+    gap: 15px;
+    margin: 35px auto 35px;
+  }
+
+  .header__logo {
+    min-width: 135px;
+    max-height: 24px;
+    margin: 0 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header__number {
+    font-size: 14px;
+  }
+
+  .header__links {
+    font-size: 12px;
+    gap: 5px;
+  }
+
+  .header__logo {
+    min-width: 95px;
+    max-height: 24px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__links {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__phone {
+    display: none;
+  }
+}

@@ -1,0 +1,808 @@
+.work {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background-color: #F2F2F4;
+}
+
+.work__mask {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  background-image: url("../../../src/images/work__mask.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 942px;
+  width: 100%;
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  margin: 50px auto 24px;
+}
+
+.work__title {
+  color: #111;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.8%; /* 44.91px */
+}
+
+.work__subtitle {
+  color: #333;
+  text-align: center;
+  font-family: 'FuturaBookC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 100% */
+}
+
+.work__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.work__application {
+  background-image: url("../../../src/images/Union.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+}
+
+.work__card_mask {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 90px 311px;
+  grid-column-gap: 16px;
+  background-image: url("../../../src/images/Mask group.png");
+  height: 268px;
+}
+
+.work__card_number {
+  color: #969AF7;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 39px 0 0 38px;
+}
+
+.work__card_title {
+  color: #FFF;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin: 39px 0 18px 0;
+}
+
+.work__card_text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #E3E3E3;
+  font-family: 'FuturaBookC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  max-width: 280px;
+  margin: 0;
+}
+
+.work__check {
+  background-image: url("../../../src/images/Vector-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+  width: 440px;
+}
+
+.work__proposal {
+  background-image: url("../../../src/images/Vector-3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+}
+
+.work__cards__two-line {
+  display: flex;
+  height: 268px;
+}
+
+.work__payment {
+  background-image: url("../../../src/images/Vector-4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+  width: 439px;
+}
+
+.work__card_number__two-line {
+  color: #969AF7;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 39px 16px 0 60px;
+}
+
+.work__card_title__two-line {
+  color: #FFF;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin: 39px 0 18px 20px;
+}
+
+.work__card_text__two-line {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #E3E3E3;
+  font-family: 'FuturaBookC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  margin: 0 0 0 20px;
+}
+
+.work__order {
+  background-image: url("../../../src/images/Vector-5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+  width: 439px;
+}
+
+.work__product {
+  background-image: url("../../../src/images/Subtract.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+}
+
+.work__btn {
+  color: #FFF;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 105.556% */
+  width: 300px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: none;
+  background: #FFA500;
+  margin: 48px auto 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .work__mask {
+    height: 824px;
+  }
+
+  .work__container {
+    margin: 50px auto 12px;
+  }
+
+  .work__cards {
+    grid-template-columns: repeat(3, 329px);
+    margin: 0 0 10px 0;
+  }
+
+  .work__card_mask {
+    grid-template-columns: 50px 260px;
+    grid-template-rows: 70px 131px;
+    grid-column-gap: 10px;
+  }
+
+  .work__card_number {
+    font-size: 30px;
+    margin: 25px 0 0 15px;
+  }
+
+  .work__card_number__two-line {
+    font-size: 30px;
+    margin: 25px 0 0 31px;
+  }
+
+  .work__card_title {
+    font-size: 14px;
+    line-height: 20px; /* 138.889% */
+    max-width: 220px;
+    margin: 25px 0 10px;
+  }
+
+  .work__card_title__two-line {
+    font-size: 14px;
+    line-height: 20px; /* 138.889% */
+    max-width: 220px;
+    margin: 25px 0 10px 14px;
+  }
+
+  .work__card_text {
+    font-size: 14px;
+    line-height: 20px; /* 138.889% */
+    max-width: 220px;
+  }
+
+  .work__card_text__two-line {
+    font-size: 14px;
+    line-height: 20px; /* 138.889% */
+    max-width: 220px;
+    margin: 0 0 0 20px;
+  }
+
+  .work__application {
+    width: 335px;
+    height: 207px;
+  }
+
+  .work__check {
+    width: 337px;
+    height: 207px;
+  }
+
+  .work__proposal {
+    width: 316px;
+    height: 229px;
+  }
+
+  .work__product {
+    width: 311px;
+  }
+
+  .work__order {
+    width: 337px;
+  }
+
+  .work__payment {
+    width: 329px;
+  }
+
+  .work__btn {
+    margin: 0 auto 10px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .work__mask {
+    height: 715px;
+  }
+
+  .work__container {
+    margin: 0 auto 12px;
+  }
+
+  .work__title {
+    font-size: 35px;
+    margin: 30px auto;
+  }
+
+  .work__subtitle {
+    font-size: 26px;
+    max-width: 600px;
+    margin: 10px auto 20px;
+  }
+
+  .work__cards {
+    grid-template-columns: repeat(3, 279px);
+    margin: 0 auto;
+  }
+
+  .work__card_mask {
+    grid-template-columns: 50px 217px;
+    grid-template-rows: 50px 131px;
+    grid-column-gap: 5px;
+  }
+
+  .work__card_number {
+    font-size: 14px;
+    margin: 20px 0 0 5px;
+  }
+
+  .work__card_number__two-line {
+    font-size: 14px;
+    margin: 20px 0 0 35px;
+  }
+
+  .work__card_title {
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 180px;
+    margin: 20px 0 10px;
+  }
+
+  .work__card_title__two-line {
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 180px;
+    margin: 20px 0 10px 14px;
+  }
+
+  .work__card_text {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 200px;
+  }
+
+  .work__card_text__two-line {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 200px;
+    margin: 0 0 0 14px;
+  }
+
+  .work__application {
+    width: 286px;
+  }
+
+  .work__check {
+    width: 291px;
+  }
+
+  .work__proposal {
+    width: 273px;
+  }
+
+  .work__product {
+    width: 261px;
+  }
+
+  .work__order {
+    width: 290px;
+  }
+
+  .work__payment {
+    width: 279px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .work__title {
+    font-size: 25px;
+    margin: 30px auto;
+  }
+
+  .work__subtitle {
+    font-size: 16px;
+    max-width: 450px;
+    margin: 10px auto 20px;
+  }
+
+  .work__cards {
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 227px);
+    margin: 0;
+  }
+
+  .work__card_mask {
+    grid-template-columns: 30px 193px;
+    grid-template-rows: 40px 131px;
+    height: 170px;
+    width: 226px;
+  }
+
+  .work__cards__two-line {
+    height: 191px;
+    margin: 0 auto;
+  }
+
+  .work__card_number {
+    font-size: 16px;
+    margin: 15px 0 0 5px;
+  }
+
+  .work__card_number__two-line {
+    font-size: 16px;
+    margin: 15px 0 0 23px;
+  }
+
+  .work__card_title {
+    max-width: 180px;
+  }
+
+  .work__card_title__two-line {
+    margin: 15px 0 10px 14px;
+  }
+
+  .work__card_text {
+    font-size: 10px;
+    max-width: 180px;
+  }
+
+  .work__card_text__two-line {
+    font-size: 10px;
+    max-width: 180px;
+  }
+
+  .work__application {
+    background-size: 85% 85%;
+    height: 170px;
+  }
+
+  .work__check {
+    background-size: 85% 85%;
+    height: 170px;
+  }
+
+  .work__proposal {
+    width: 223px;
+    height: 161px;
+  }
+
+  .work__product {
+    height: 150px;
+    width: 229px;
+  }
+
+  .work__order {
+    height: 150px;
+    width: 245px;
+  }
+
+  .work__payment {
+    height: 150px;
+    width: 245px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .work__mask {
+    height: 553px;
+  }
+
+  .work__container {
+    max-width: 600px;
+  }
+
+  .work__cards {
+    grid-template-columns: repeat(3, 190px);
+  }
+
+  .work__cards__two-line {
+    height: 170px;
+  }
+
+  .work__card_mask {
+    grid-template-columns: 30px 154px;
+    grid-template-rows: 47px 110px;
+    height: 143px;
+    width: 192px;
+  }
+
+  .work__card_title {
+    font-size: 8px;
+    max-width: 150px;
+    margin: 15px 0 10px;
+  }
+
+  .work__card_title__two-line {
+    font-size: 8px;
+    max-width: 150px;
+  }
+
+  .work__card_text {
+    font-size: 8px;
+    max-width: 150px;
+    line-height: 129%;
+  }
+
+  .work__card_text__two-line {
+    font-size: 8px;
+    max-width: 150px;
+    line-height: 129%;
+  }
+
+  .work__application {
+    width: 195px;
+    height: 150px;
+    background-size: 100% 85%;
+  }
+
+  .work__check {
+    width: 198px;
+    height: 150px;
+    background-size: 100% 85%;
+  }
+
+  .work__proposal {
+    width: 208px;
+    height: 150px;
+    background-size: 90% 94%;
+  }
+
+  .work__product {
+    width: 184px;
+  }
+
+  .work__order {
+    width: 200px;
+  }
+
+  .work__payment {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .work__card_mask {
+    grid-template-columns: 30px 114px;
+  }
+
+  .work__application {
+    width: 188px;
+  }
+
+  .work__check {
+    width: 192px;
+  }
+
+  .work__proposal {
+    width: 204px;
+  }
+
+  .work__product {
+    width: 178px;
+    background-size: 100% 85%;
+  }
+
+  .work__order {
+    width: 191px;
+    background-size: 100% 85%;
+  }
+
+  .work__payment {
+    width: 194px;
+    background-size: 100% 85%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .work__cards {
+    grid-template-columns: repeat(3, 120px);
+  }
+
+  .work__card_mask {
+    grid-template-columns: 16px 108px;
+    width: 124px;
+  }
+
+  .work__container {
+    max-width: 400px;
+  }
+
+  .work__application {
+    width: 141px;
+    height: 138px;
+  }
+
+  .work__check {
+    width: 142px;
+    height: 138px;
+  }
+
+  .work__proposal {
+    width: 171px;
+    height: 138px;
+  }
+
+  .work__product {
+    width: 136px;
+    height: 138px;
+  }
+
+  .work__order {
+    width: 143px;
+    height: 138px;
+  }
+
+  .work__payment {
+    width: 154px;
+    height: 138px;
+  }
+
+  .work__card_number {
+    font-size: 10px;
+  }
+
+  .work__card_number__two-line {
+    font-size: 10px;
+    margin: 15px 0 0 13px;
+  }
+
+  .work__card_title {
+    font-size: 7px;
+  }
+
+  .work__card_title__two-line {
+    font-size: 7px;
+    margin: 15px 0 10px 8px;
+  }
+
+  .work__card_text {
+    font-size: 7px;
+    max-width: 100px;
+  }
+
+  .work__card_text__two-line {
+    font-size: 7px;
+    max-width: 100px;
+    margin: 0 0 0 8px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .work__cards {
+    grid-template-columns: repeat(3, 129px);
+  }
+
+  .work__application {
+    width: 130px;
+  }
+
+  .work__check {
+    width: 130px;
+  }
+
+  .work__proposal {
+    width: 143px;
+  }
+
+  .work__product {
+    width: 125px;
+  }
+
+  .work__order {
+    width: 139px;
+  }
+
+  .work__payment {
+    width: 137px;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .work__container {
+    max-width: 320px;
+  }
+
+  .work__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .work__card_mask {
+    grid-column-gap: 2px;
+  }
+
+  .work__application {
+    width: 108px;
+  }
+
+  .work__check {
+    width: 110px;
+  }
+
+  .work__proposal {
+    width: 129px;
+  }
+
+  .work__product {
+    width: 104px;
+  }
+
+  .work__order {
+    width: 110px;
+  }
+
+  .work__payment {
+    width: 121px;
+  }
+
+  .work__card_number {
+    font-size: 8px;
+    margin: 12px 0 0 5px;
+  }
+
+  .work__card_number__two-line {
+    font-size: 8px;
+    margin: 12px 0 0 13px;
+  }
+
+  .work__card_title {
+    font-size: 6px;
+    margin: 10px 0 0;
+  }
+
+  .work__card_title__two-line {
+    font-size: 6px;
+    margin: 10px 0 0 8px;
+  }
+
+  .work__card_text {
+    font-size: 6px;
+    max-width: 72px;
+  }
+
+  .work__card_text__two-line {
+    font-size: 6px;
+    max-width: 72px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .work__subtitle {
+    font-size: 11px;
+  }
+
+  .work__card_mask {
+    grid-column-gap: 1px;
+    grid-template-columns: 16px 84px;
+    width: 100px;
+  }
+
+  .work__card_title {
+    max-width: 90px;
+    font-size: 5px;
+    line-height: 11px;
+  }
+
+  .work__card_title__two-line {
+    max-width: 90px;
+    font-size: 5px;
+    line-height: 11px;
+  }
+
+  .work__application {
+    width: 104px;
+    margin: 0 0 0 9px;
+  }
+
+  .work__check {
+    width: 104px;
+    height: 138px;
+  }
+
+  .work__proposal {
+    width: 105px;
+    height: 138px;
+  }
+
+  .work__product {
+    width: 98px;
+  }
+
+  .work__order {
+    width: 106px;
+  }
+
+  .work__payment {
+    width: 101px;
+  }
+
+  .work__btn {
+    font-size: 14px;
+    width: 200px;
+    height: 46px;
+  }
+}

@@ -1,0 +1,242 @@
+.reviews {
+  background-image: url("../../../src/images/reviews__background.png");
+  height: 1271px;
+  margin: 0;
+}
+
+.reviews__title {
+  color: #FFF;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.8%; /* 44.91px */
+  margin: 0 auto 40px;
+  padding-top: 120px;
+}
+
+.reviews__containers {
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: 87px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #FFF 50.57%, #BDC0FF 100%);
+  box-shadow: 0 0 50px -10px rgba(22, 126, 194, 0.20);
+  margin: 0 auto 13px;
+}
+
+.reviews__containers_text {
+  color: #333;
+  font-family: 'FuturaDemiC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  margin: 0 auto 0 53px;
+}
+
+.reviews__containers__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #757AEF;
+  margin: 0 37px 0 0;
+  cursor: pointer;
+}
+
+.reviews__container {
+  display: flex;
+  align-items: center;
+  width: 1280px;
+  height: 87px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #969AF7 0%, #686EEC 100%);
+  margin: 0 auto;
+}
+
+.reviews__container_text {
+  color: #FFF;
+  font-family: 'FuturaDemiC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 116.667% */
+  margin: 0 auto 0 53px;
+}
+
+.reviews__container__btn {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 30px rgba(166, 190, 226, 0.50));
+  border-radius: 50%;
+  border: none;
+  background-color: #FFF;
+  margin: 0 37px 0 0;
+  cursor: pointer;
+}
+
+.reviews__review {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  background-color: #FFF;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto 14px;
+}
+
+.reviews__review__text {
+  color: #333;
+  font-family: 'FuturaBookC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  margin: 39px 43px 30px 53px;
+}
+
+@media screen and (max-width: 1300px) {
+  .reviews {
+    height: 1100px;
+  }
+
+  .reviews__containers {
+    width: 900px;
+    height: 70px;
+  }
+
+  .reviews__container {
+    width: 900px;
+    height: 70px;
+  }
+
+  .reviews__review {
+    width: 900px;
+  }
+
+  .reviews__review__text {
+    font-size: 16px;
+    margin: 39px 43px 5px 53px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reviews {
+    height: 1180px;
+  }
+
+  .reviews__title {
+    max-width: 500px;
+    font-size: 35px;
+    padding-top: 45px;
+  }
+
+  .reviews__containers {
+    width: 700px;
+  }
+
+  .reviews__container {
+    width: 700px;
+  }
+
+  .reviews__review {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .reviews__containers {
+    width: 500px;
+    height: 50px;
+  }
+
+  .reviews__container {
+    width: 500px;
+    height: 50px;
+  }
+
+  .reviews__review {
+    width: 500px;
+  }
+
+  .reviews__containers__btn {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 0;
+  }
+
+  .reviews__container__btn {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 0 0;
+  }
+
+  .reviews__containers_text {
+    font-size: 16px;
+    margin: 0 auto 0 15px;
+  }
+
+  .reviews__container_text {
+    font-size: 16px;
+    margin: 0 auto 0 15px;
+  }
+
+  .reviews__review__text {
+    font-size: 14px;
+    margin: 10px 15px 10px 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .reviews__title {
+    max-width: 300px;
+    font-size: 18px;
+    padding-top: 45px;
+  }
+
+  .reviews__containers {
+    width: 320px;
+    height: 40px;
+  }
+
+  .reviews__container {
+    width: 320px;
+    height: 40px;
+  }
+
+  .reviews__review {
+    width: 320px;
+  }
+
+  .reviews__containers_text {
+    font-size: 10px;
+    margin: 0 auto 0 5px;
+  }
+
+  .reviews__container_text {
+    font-size: 10px;
+    margin: 0 auto 0 5px;
+  }
+
+  .reviews__containers__btn {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
+  }
+
+  .reviews__container__btn {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
+  }
+
+  .reviews__review__text {
+    font-size: 10px;
+    margin: 10px 15px 10px 15px;
+  }
+}

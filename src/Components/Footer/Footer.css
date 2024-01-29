@@ -1,0 +1,111 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 177px;
+  flex-shrink: 0;
+  background-color: #333;;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  color: #FFF;
+  font-family: 'FuturaBookC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 122.8%; /* 22.104px */
+  margin: 0 auto 71px;
+  padding-top: 72px;
+}
+
+.footer__logo {
+  width: 189px;
+  height: 34px;
+  margin: 0 13px 0 0;
+}
+
+.footer__btn {
+  width: 261px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #969AF7;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: 'FuturaFuturisC', 'Inter', 'Arial', 'sans-serif';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 105.556% */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .footer__links {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__links {
+    font-size: 14px;
+    line-height: 50%;
+    gap: 15px;
+    margin: 0 auto 35px;
+    padding-top: 35px;
+  }
+
+  .footer__logo {
+    min-width: 135px;
+    max-height: 24px;
+    margin: 0 10px 0 0;
+  }
+
+  .footer__btn {
+    width: 200px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__links {
+    font-size: 12px;
+    gap: 5px;
+    margin: 0 auto 35px;
+    padding-top: 35px;
+  }
+
+  .footer__logo {
+    min-width: 95px;
+    margin: 0 5px 0 0;
+  }
+
+  .footer__btn {
+    width: 150px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    height: 250px;
+  }
+
+  .footer__links {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .footer__logo {
+    margin: 0;
+  }
+
+  .footer__btn {
+    height: 40px;
+  }
+}
